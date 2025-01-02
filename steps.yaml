@@ -1,0 +1,6 @@
+1) Checked if the browser supports Geolocation
+2) Use watchPosition to track user continously
+3) Emit the latitude and longitude via a socket with "send-location" and looged any errors on console 
+4) Options set for high accuracy, a 5 second timeout and no caching
+5) Initialize a map centred at (0,0) with a zoom level of 15 using Leaflet and add OpenStreetMap tiles to the map
+6) Create an empty object marker
